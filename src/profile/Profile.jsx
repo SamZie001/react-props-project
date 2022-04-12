@@ -28,7 +28,7 @@ function Profile (props) {
   )
 }
 
-Profile.prototype = {
+Profile.propTypes = {
     username: PropTypes.string,
     bio: PropTypes.string,
     profession: PropTypes.string,
